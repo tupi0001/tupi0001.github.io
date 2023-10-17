@@ -15,8 +15,28 @@ header, footer {
     color: tan ;
 }
 
-image {
+#my-image {
     box-shadow: 0 2px 1px #000;
 }
 
+ul.My-hobbies li:nth-child(odd) {
+    background-color: rgb(242, 219, 212);
+}
+
+nav ul {
+    list-style: none;
+}
+
+section ul li:nth-child(odd) {
+    background-color: antiquewhite;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: lavender;
+    border: 1px solid #909090;
+    color: black;
+    display: infline inline-block;
+    margin: 5px;
+}
 
