@@ -1,0 +1,16 @@
+/* 
+This is a CSS comment 
+Shortcut for adding the comment is command/ ctrl + /
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+header, footer {
+    background-color:lavender;
+}
+.site-title {
+    color: tan ;
+}
