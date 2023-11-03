@@ -1,34 +1,38 @@
 .container{
     max-width: 1000px;
-    background-color: azure;
+    background-color:#c1e4e0;
     margin: 0 auto;
 }
 
 body{
-    background-color:aquamarine;
+    background-color:#aad4cf;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main{
     margin: 10px;
 }
 
-
-
-h1 {
-    
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50% -50%);
-    font-size: 2rem;
-    color: white;
-    z-index: 1;
-    
-    
-    
+header{
+    position: relative;
+    background: url(/midterm/images/lone-starfish-wide.jpg);
+    background-size: cover;
+    height: 30rem;
+    overflow: hidden;
 }
 
-.star{
+.header-text{
+    color: white;
+    font-size: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+ .star{
     width: 100%;
     background-size: cover;
     top: 0;
@@ -41,28 +45,25 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    width: 33%;
-    padding: 1em;
-    box-sizing: border-box;
+    text-align: center;
+    width: 30%;
+    text-transform: uppercase;
 }
 
-/* selecting child elements multiple levels */
+nav ul li:nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 nav ul a {
     color: darkslategray;
     text-decoration: none;
-
 }
 
 .lone{
     width: 200px;
     float: left;
-    padding: 0 20px 25px 0;
-    
-}
-
-
-.row > div> ul li{
-    margin-left: -20px;
+    padding: 0 20px 25px 0;   
 }
 
 h3{
@@ -70,8 +71,16 @@ font-weight: 200;
 font-size: 17px;
 }
 
-.form{
-    p.solid {border-style: solid;}
+.facts-container h3 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
+footer{
+    text-align: right;
+}
 
+button{
+
+    padding: 10px;
+}
