@@ -109,7 +109,7 @@ header .header_container .header_search button svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img/main-banner.jpg);
+    background-image: url('images/main-banner.jpg');
     background-position: center;
     background-size: cover
 }
@@ -202,7 +202,7 @@ header .header_container .header_search button svg {
 
 .vision {
     width: 100%;
-    background-image: url(img/vision.jpg);
+    background-image: url('images/vision.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
