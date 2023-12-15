@@ -117,14 +117,20 @@
         max-width: 1200px
     }
 
+    /* Styles for articles within the Services Section for larger screens */
+
     .services .services_container .services_articles {
         grid-template-columns: repeat(6, 1fr);
         grid-gap: 10px
     }
 
+    /* Image styles within the Services Section for larger screens */
+
     .services .services_container .services_articles article img {
         width: 100%
     }
+
+    /* Paragraph styles within the Services Section articles for larger screens */
 
     .services .services_container .services_articles article .services_text p {
         font-size: 12pt

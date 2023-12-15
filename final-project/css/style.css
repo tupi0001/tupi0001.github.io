@@ -1,3 +1,8 @@
+
+/*************
+Custom Styles
+*************/
+/**** Global Styles*****/
 * {
     font-family: 'Open Sans'
 }
@@ -111,6 +116,7 @@ header .header_container .header_search button svg {
     align-items: center;
     background-image: url('images/main-banner.jpg');
     background-position: center;
+    background-attachment: fixed;
     background-size: cover
 }
 
@@ -153,8 +159,10 @@ header .header_container .header_search button svg {
     padding: 2vw;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center
+    justify-content: space-between; 
+    
 }
 
 .about .about_container .about_img,

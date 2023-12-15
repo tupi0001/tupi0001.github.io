@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -25,16 +24,19 @@
             </g>
         </symbol>
     </svg>   
+
+      <!-- Header Section -->
+
     <header>
         <div class="header_container">
             <div class="header_logo">
                 <img src="images/logo.png" alt="">
             </div>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Team</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
             <div class="header_search">
                 <input type="text" placeholder="Search">
                 <button class="header_magnifier">
@@ -47,19 +49,24 @@
     </header>
 
     <main>
-        <section class="welcome-banner">
+
+    <!-- Welcome Banner Section -->
+
+        <section class="welcome-banner" id="home">
             <div class="welcome-banner_container">
                 <h2>
                     Welcome to Three Star Media
                 </h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, sed, enim officiis harum nam vero porro nesciunt nisi eos nulla magni exercitationem ad saepe eum commodi veritatis facere quo magnam?</p>
-                <button>Connect with us <svg>
+                <button><a href="#contact">Connect with us <svg>
                     <use xlink:href="#arrow"></use>
                 </svg></button>
             </div>
         </section>
 
-        <section class="about">
+    <!-- About Section -->
+
+        <section class="about" id="about">
             <div class="about_container">
                 <div class="about_images">
                     <img src="images/about-us.jpg" alt="">
@@ -75,7 +82,9 @@
             </div>
         </section>
 
-        <section class="services">
+     <!-- Services Section -->
+
+        <section class="services" id="services">
             <div class="services_container">
                 <h3>Our services</h3>
                 <div class="services_articles">
@@ -138,6 +147,8 @@
 
         </section>
 
+    <!-- Vision Section -->
+
         <section class="vision">
             <div class="vision_container">
                 <h4>Our vision</h4>
@@ -148,7 +159,9 @@
             </div>
         </section>
 
-        <section class="team">
+     <!-- Team Section -->
+
+        <section class="team" id="team">
             <div class="team_container">
                 <h3>Our team</h3>
                 <div class="team_articles">
@@ -176,7 +189,9 @@
             </div>
         </section>
 
-        <section class="contact">
+    <!-- Contact Section -->
+
+        <section class="contact" id="contact">
             <div class="contact_container">
                 <h3>Contact us</h3>
                 <div class="contact_grid">
@@ -217,6 +232,9 @@
                 </div>
         </section>
     </main>
+
+        <!-- Footer Section -->
+
     <footer>
         <div class="footer_container">
             <span>&copy; Copyright Three Star Media, 2020</span>
